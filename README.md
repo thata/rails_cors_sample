@@ -9,6 +9,6 @@ $ cd rails_cors_sample
 $ cd server_app/
 $ rails s -p 3000 -d
 $ cd ../client_app/
-$ rails s -p 3000 -d
+$ rails s -p 3001 -d
 $ open http://localhost:3001/
 ```
