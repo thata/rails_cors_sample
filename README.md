@@ -3,6 +3,9 @@ rails_cors_sample
 
 RailsによるCORS(Cross-Origin-Resouce-Sharing)のサンプルコード。
 
+クライアントからサーバへAJAXのリクエストを投げてその結果をクライアントの画面へ表示する。
+サーバへのAJAXリクエスト時にクッキーを送信する必要があるため、 withCredentials: true を指定してやる。
+
 以下セットアップ方法。
 
 ```
