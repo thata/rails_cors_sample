@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'resources/access_control_with_credential'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
