@@ -23,4 +23,5 @@ $ open http://localhost:3001/
   - http://arunranga.com/examples/access-control/
 - Cross-domain Ajax with Cross-Origin Resource Sharing
   - http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
-
+- jQueryのCORSリクエストでクレデンシャルを必要とする場合の注意点
+  - http://qiita.com/kawaz/items/1e51c374b7a13c21b7e2
