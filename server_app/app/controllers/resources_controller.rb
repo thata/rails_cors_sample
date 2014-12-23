@@ -5,5 +5,7 @@ class ResourcesController < ApplicationController
     render json: {count: n}
 
     cookies['count'] = n + 1
+    response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3001'
+    response.headers['Access-Control-Allow-Credentials'] = 'true'
   end
 end
